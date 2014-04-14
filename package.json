@@ -1,0 +1,26 @@
+{
+  "name": "protractor_example",
+  "version": "0.0.0",
+  "description": "lab experiment",
+  "main": "example_spec.js",
+  "dependencies": {
+    "grunt": "^0.4.4",
+    "grunt-protractor-runner": "^0.2.4",
+    "grunt-protractor-webdriver": "^0.1.6",
+    "protractor": "^0.21.0"
+  },
+  "devDependencies": {
+    "grunt-available-tasks": "^0.4.5"
+  },
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/goci/protractor_example.git"
+  },
+  "author": "dexter",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/goci/protractor_example/issues"
+  },
+  "homepage": "https://github.com/goci/protractor_example"
+}

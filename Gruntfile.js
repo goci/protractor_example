@@ -29,5 +29,5 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-protractor-webdriver');
   grunt.loadNpmTasks('grunt-available-tasks');
 
-  grunt.registerTask('default', ['protractor_webdriver', 'protractor']);
+  grunt.registerTask('default', ['protractor']);
 };

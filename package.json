@@ -5,6 +5,7 @@
   "main": "example_spec.js",
   "dependencies": {
     "grunt": "^0.4.4",
+    "grunt-cli": "^0.1.13",
     "grunt-protractor-runner": "^0.2.4",
     "grunt-protractor-webdriver": "^0.1.6",
     "protractor": "^0.21.0"

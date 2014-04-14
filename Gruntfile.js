@@ -14,7 +14,11 @@ module.exports = function(grunt) {
       }
     },
     protractor_webdriver: {
-      'myproject': {}
+      'myproject': {
+        options: {
+          path: 'node_modules/.bin/'
+        }
+      }
     },
     availabletasks: {
       tasks: {}

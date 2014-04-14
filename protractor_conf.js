@@ -7,7 +7,9 @@ exports.config = {
 
   // Capabilities to be passed to the webdriver instance.
   capabilities: {
-    'browserName': 'chrome'
+    'browserName': 'chrome',
+    'binary': '/opt/google/chrome',
+    'args': ['no-sandbox']
   },
 
   // Spec patterns are relative to the location of the spec file. They may
